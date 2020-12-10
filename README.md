@@ -1,0 +1,2 @@
+- NPE on merge if the entity references another entity that has a collection field
+- org.hibernate.engine.internal.AbstractEntityEntry.isUnequivocallyNonDirty fails, as the collection dirtyness check is wrong
